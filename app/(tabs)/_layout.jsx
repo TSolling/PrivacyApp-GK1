@@ -1,8 +1,6 @@
 import { View, Text, Image } from 'react-native'
 import React from 'react'
 import { Slot, Tabs, Redirect } from 'expo-router'
-import Ionicons from '@expo/vector-icons/Ionicons';
-import AntDesign from '@expo/vector-icons/AntDesign';
 import Feather from '@expo/vector-icons/Feather';
 
 const TabIcon = ({ icon, color, focused }) => {

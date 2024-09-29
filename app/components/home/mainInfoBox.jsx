@@ -1,4 +1,5 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, View, } from 'react-native'
+import { Link } from 'expo-router';
 import React from 'react'
 import Feather from '@expo/vector-icons/Feather';
 
@@ -15,7 +16,9 @@ const MainInfoBox = () => {
         </Text>
         <View className="flex-row-reverse  py-1">
             <Feather name="chevron-right" size={20} color="gray" />
-            <Text className="text-gray-400">Learn more</Text>
+            <Link href="search" className="text-blue-500 underline">
+            Learn more
+          </Link>
         </View>
         </View>
       </View>

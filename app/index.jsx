@@ -13,8 +13,14 @@ export default function App() {
             Dette er introsiden.
           </Text>
           <Text>To make at a later date.</Text>
-          <Link href="home" className="text-blue-500 underline">
+          <Link href="home" className="text-blue-500 font-semibold underline py-5">
             Go to Home
+          </Link>
+          <Link href="intro" className="text-blue-500 underline font-semibold py-5">
+            Go to onboarding
+          </Link>
+          <Link href="xx" className="text-blue-500 underline font-semibold py-5">
+            Go to Sitemap debugger
           </Link>
         </View>
       </ScrollView>
@@ -22,3 +28,5 @@ export default function App() {
     </SafeAreaView>
   );
 }
+
+
